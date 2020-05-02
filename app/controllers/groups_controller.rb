@@ -21,6 +21,12 @@ class GroupsController < ApplicationController
   def edit
   end
 
+  # GET /groups/1/edit
+  def addme
+    render plain: "this is add me"
+  end
+
+    
   # POST /groups
   # POST /groups.json
   def create
